@@ -1,0 +1,217 @@
+body {
+	margin: 0;
+}
+
+.navigation ul {
+	background-color: #323232;
+	color: white;
+	margin: 0;
+	padding: 3.5px;
+	border: 3px;
+	font-family: arial;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.navigation li {
+	display: inline-block;
+	padding: 10px 30px 10px 50px;
+	text-align: center;
+	color: #fff;
+
+}
+ 
+.navigation li:hover {
+	background: none;
+	color: grey;
+}
+
+.navigation ul.active a{
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	display: block;
+	margin: 5px;
+
+}
+.navigation i{
+	font-size: 20px;
+	padding-left: 20px;
+	margin: 0 1%;
+}
+/*box*/
+.box {
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+	padding: 40px;
+	background-color: #FAFAFA;
+	display: block;
+
+}
+
+img {
+	padding: 10px;
+
+}
+
+/*iphone8*/
+.eight {
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+	padding: 40px;
+	background-color: #FBF0EB;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	width: 98%;
+	display: block;
+}
+
+/*ipad*/
+.ipad {
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+	padding: 40px;
+	background-color: #F5F5F5;
+	border: none;
+	margin-top: 15px;
+	width: 98%;
+}
+
+/*Apple Special Event and Apple + Edu*/
+/*Apple Special Event*/
+.event {
+	background-color: #FAFAFA;
+	text-align: center;
+	border: none;
+	display: inline-block;
+	width: 45%;
+	padding-top: 20px;
+	padding-right: 27px;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+
+.event img {
+	height: 375px;
+	margin: auto;
+	display: inline-block;
+	padding: 10px;
+}
+
+.event a {
+	text-decoration: none;
+	color: #086CCD;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.edu {
+	background-color: #FAFAFA;
+	text-align: center;
+	border: none;
+	display: inline-block;
+	width: 50%;
+	margin: 18px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.edu img {
+	height: 450px;
+	display: inline-block;
+	padding: 1px;
+}
+
+.edu h4 {
+	font-family: 'Roboto', sans-serif;
+}
+
+/*Second Small Boxes*/
+/*iMac and Apple Watch*/
+
+.small {
+  text-align: center;
+  background-color: none;
+  height: 400px;
+  display: inline-block;
+  width: 47%;
+  padding-top: 50px;
+  background-image: url("http://www.smartworld.it/wp-content/uploads/2017/12/apple-imac-pro-final-5.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  color: white;
+  font-family:'Roboto', sans-serif;
+}
+
+#small-two {
+  background-image: url("https://cdn.macrumors.com/article-new/2017/09/apple-watch-series-3-trio-800x384.jpg");
+  color: black;
+  height: 350px;
+  width: 45%;
+}
+
+#small-two h4 {
+	color: yellow;
+}
+/*last boxes*/
+.home {
+  text-align: center;
+  background-color: #F6F5F8;
+  height: 351px;
+  display: inline-block;
+  width: 681px;
+  padding-top: 50px;
+  background-image: url("https://cnet1.cbsistatic.com/img/2XZ0Yj-9SKKzddmC1nnnQe5lFi8=/2017/06/06/8b3f9441-e926-4e45-830f-5dc6626abac3/apple-wwdc-2017-homepod-4096.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  color: white;
+  font-family:'Roboto', sans-serif;
+}
+
+#home-two {
+  background-image: url("https://cdn3.macworld.co.uk/cmsdata/features/3672580/apple_airpods_review10_thumb800.jpg");
+  color: black;
+  height: 350px;
+  width: 50%;
+  margin: 15px;
+}
+
+
+/*Footer*/
+
+footer {
+	background-color: #F5F5F5;
+	margin-top: 15px;
+	padding-left: 166px;
+}
+footer > ul {
+	display: inline-block;
+	list-style-type: none;
+	padding: 55px;
+	padding-top: 10px;
+}
+
+
+footer li span {
+	color: #333333;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+}
+
+footer li a{
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	color: #7D7D7D;
+	list-style-type: none;
+
+}
+
+
